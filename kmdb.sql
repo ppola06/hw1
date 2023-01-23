@@ -168,7 +168,7 @@ INSERT INTO casts (cast_member,movie_id,character_name) VALUES ("Christian Bale"
 -- TODO!
 SELECT movies.movie_name,movies.release_year,movies.mpaa_rating,studios.studio
 FROM movies
-JOIN studios ON movies.id = studios.movie_id;
+INNER JOIN studios ON movies.id = studios.movie_id;
 
 -- Prints a header for the cast output
 .print ""
