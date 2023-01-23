@@ -130,7 +130,7 @@ CREATE TABLE movies(
    CREATE TABLE actors(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     cast_member TEXT,
-    movie_name TEXT);
+    movie_id INTEGER);
 
 -- Insert data into your database that reflects the sample data shown above
 
